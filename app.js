@@ -31,7 +31,7 @@ function listaDeAmigos(){
 
     }
 
-function sortearAmigos(){
+function sortearAmigo(){
     let numeroAleatorio = parseInt(Math.floor(Math.random() * listaAmigos.length));
     console.log("numeroAle:", numeroAleatorio);
     console.log("Resultado: ",listaAmigos[numeroAleatorio]);
