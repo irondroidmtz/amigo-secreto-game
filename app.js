@@ -6,6 +6,10 @@ function agregarAmigo(){
         if (nombreAmigo == ""){
             alert("Por favor, inserta un nombre valido");
         }
-        else {}
+        else {
+            listaAmigos.push(nombreAmigo);
+            document.getElementById("nombreAmigo").value = "";
+            actualizarLista();
+        }
 
 }
